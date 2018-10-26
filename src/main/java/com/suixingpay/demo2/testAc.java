@@ -12,6 +12,7 @@ public class testAc {
         ModelAndView mv = new ModelAndView();
         mv.addObject("name", "zhangshan");
         mv.setViewName("index");
+        System.out.println("被修改啦！");
         return mv;
     }
 }
